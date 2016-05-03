@@ -1,0 +1,7 @@
+using DataFrames
+
+df = readtable("../data/fb_daily_data.csv");
+
+# Get column as datatable vector
+df[:Open]
+

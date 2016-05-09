@@ -6,22 +6,27 @@ geolocator = Nominatim()
 
 centers = [
     "Ashburn, VA", 
-    "Atlanta, GA", 
+    "Atlanta, GA",
+    "Austin, TX",
+    "Boise, ID"
+    "Boston, MA",
     "Chicago, IL",
-    "Dallas/Fort Worth, TX",
-    "Jacksonville, FL",
+    "Cincinnati, OH",
+    "Dallas, TX",
+    "Denver, CO",
+    "Las Vegas, NV",
     "Los Angeles, CA",
     "Miami, FL", 
+    "Minneapolis, MN",
+    "Nashville, TN",
     "New York, NY",
     "Palo Alto, CA",
-    "Seattle, WA",
-    "South Bend, IN",
-    "St. Louis, MO",
-    "Boardman, OR",
+    "Seattle, WA"
 ]
 
 coords = []
 for i in centers:
+    print i
     location = geolocator.geocode(i)
     coords.append((location.latitude, location.longitude))
 

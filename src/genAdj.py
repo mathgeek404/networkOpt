@@ -5,17 +5,10 @@ import sys
 geolocator = Nominatim()
 
 centers = [
-    "Ashburn, VA", 
-    "Atlanta, GA",
     "Austin, TX",
     "Boise, ID",
-    "Boston, MA",
-    "Chicago, IL",
-    "Cincinnati, OH",
-    "Dallas, TX",
     "Denver, CO",
     "Las Vegas, NV",
-    "Los Angeles, CA",
     "Miami, FL", 
     "Minneapolis, MN",
     "Nashville, TN",
